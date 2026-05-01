@@ -62,3 +62,18 @@ Get help: [Post in our discussion board](https://github.com/orgs/skills/discussi
 &copy; 2024 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
 </footer>
+
+## Project analysis script
+
+Added `analyze_project.py` to quickly inspect a folder and get:
+
+- total number of files;
+- total project size;
+- file count grouped by extension;
+- top 10 largest files.
+
+Run it from the repository root:
+
+```bash
+python3 analyze_project.py .
+```
